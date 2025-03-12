@@ -1,13 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class menuPrincipalGUI {
+public class menuPrincipal {
     private somaApp soma;
     private multApp mult;
     private diviApp divi;
     private subApp sub;
 
-    public menuPrincipalGUI() {
+    public menuPrincipal() {
         this.soma = new somaApp();
         this.mult = new multApp();
         this.divi = new diviApp();
