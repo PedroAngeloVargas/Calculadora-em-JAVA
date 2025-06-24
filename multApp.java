@@ -39,7 +39,7 @@ public class multApp {
             }
         });
 
-        frame.setLocationRelativeTo(null); // Centraliza a janela na tela
+        frame.setLocationRelativeTo(null); 
         frame.setVisible(true);
     }
 }

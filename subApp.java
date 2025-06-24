@@ -1,7 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 public class subApp{ 
     public void iniciar() {
@@ -38,7 +38,7 @@ public class subApp{
             }
         });
 
-        frame.setLocationRelativeTo(null); // Centraliza a janela na tela
+        frame.setLocationRelativeTo(null); 
         frame.setVisible(true);
     }
 }

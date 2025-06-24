@@ -1,7 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 public class somaApp {
 
@@ -39,7 +39,7 @@ public class somaApp {
             }
         });
 
-        frame.setLocationRelativeTo(null); // Centraliza a janela na tela
+        frame.setLocationRelativeTo(null); 
         frame.setVisible(true);
     }
 }

@@ -1,7 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 
 public class diviApp {
@@ -40,7 +40,7 @@ public class diviApp {
             }
         });
 
-        frame.setLocationRelativeTo(null); // Centraliza a janela na tela
+        frame.setLocationRelativeTo(null); 
         frame.setVisible(true);
     }
 
